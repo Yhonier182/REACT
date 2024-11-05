@@ -1,0 +1,143 @@
+/* Contenedor principal para el footer */
+footer {
+    background-color: #0a0a0a; /* Fondo oscuro */
+    color: #c2baba; /* Color del texto */
+    padding: 4px; /* Espaciado interno reducido */
+    text-align: center; /* Centrar texto y otros elementos */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    border-radius: 10px;
+}
+
+/* Contenedor general para el contenido del footer */
+.contenedor-footer {
+    max-width: 1200px; /* Ancho máximo del contenedor ajustado */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    display: flex;
+    flex-direction: column; /* Disposición vertical */
+    align-items: center; /* Centrar elementos */
+}
+
+/* Contenedor de información del footer */
+.info-footer {
+    display: flex; /* Para alinear el perfil y la suscripción */
+    justify-content: space-between; /* Espacio entre los elementos hijos */
+    width: 100%; /* Tomar el ancho completo */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en varias líneas */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilos para el perfil */
+.perfil {
+    flex: 1; /* Permitir que el perfil se expanda */
+    min-width: 200px; /* Ancho mínimo ajustado */
+    padding: 5px; /* Espacio interno reducido */
+}
+
+/* Estilo para el encabezado de nivel 3 */
+.perfil h3 {
+    font-size: 1.5rem; /* Tamaño de fuente para el nombre reducido */
+    color: #c2baba; /* Color del texto */
+    margin-bottom: 5px; /* Espacio inferior reducido */
+}
+
+/* Estilo para el párrafo */
+.perfil p {
+    font-size: 0.9rem; /* Tamaño de fuente estándar reducido */
+    color: #f1d1d1; /* Color gris oscuro */
+}
+
+/* Estilo para la sección de suscripción */
+.suscripcion {
+    flex: 1; /* Permitir que la suscripción se expanda */
+    min-width: 200px; /* Ancho mínimo ajustado */
+    padding: 5px; /* Espacio interno reducido */
+}
+
+/* Estilo para el formulario */
+.suscripcion form {
+    display: flex; /* Para alinear el input y el botón */
+    margin-top: 5px; /* Espacio superior reducido */
+}
+
+/* Estilo para el input de correo electrónico */
+input[type="email"] {
+    padding: 5px; /* Espaciado interno reducido */
+    border: none; /* Sin borde */
+    border-radius: 5px 0 0 5px; /* Bordes redondeados a la izquierda */
+    flex: 1; /* Para que el input tome el espacio disponible */
+    font-size: 0.9rem; /* Tamaño de fuente reducido */
+}
+
+/* Estilo para el botón de suscripción */
+button {
+    padding: 5px; /* Espaciado interno reducido */
+    border: none; /* Sin borde */
+    background-color: #007bff; /* Color de fondo azul */
+    color: rgb(8, 8, 8); /* Color del texto oscuro */
+    border-radius: 0 5px 5px 0; /* Bordes redondeados a la derecha */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo al pasar el mouse */
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+button:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el ratón */
+}
+
+/* Línea separadora entre secciones */
+.linea-separadora {
+    width: 100%; /* Ancho completo */
+    border: 0; /* Sin borde */
+    height: 1px; /* Altura de la línea */
+    background-color: #c2baba; /* Color de la línea */
+    margin: 10px 0; /* Espacio superior e inferior */
+}
+
+/* Estilos para la sección de enlaces */
+.enlaces-footer {
+    text-align: center; /* Centrar elementos */
+}
+
+/* Estilos para la sección de derechos de autor */
+.enlaces-footer p {
+    margin: 5px 0; /* Espacio superior e inferior reducido */
+    font-size: 0.9rem; /* Tamaño de fuente reducido */
+}
+
+/* Estilos para los iconos de redes sociales */
+.redes-sociales {
+    display: flex; /* Para alinear los enlaces de redes sociales */
+    gap: 10px; /* Espacio entre los iconos reducido */
+    justify-content: center; /* Centrar iconos */
+    margin: 5px 0; /* Espacio superior e inferior reducido */
+}
+
+/* Estilo para los enlaces de redes sociales */
+.redes-sociales a {
+    color: white; /* Color de los enlaces */
+    font-size: 1.2rem; /* Tamaño de fuente para iconos reducido */
+}
+
+/* Efecto al pasar el cursor sobre los enlaces de redes sociales */
+.redes-sociales a:hover {
+    color: #61dafb; /* Cambiar el color al pasar el ratón */
+}
+
+/* Estilos para la sección de políticas */
+.politicas-footer {
+    margin-top: 5px; /* Espacio superior reducido */
+    display: flex; /* Para alinear los enlaces de políticas */
+    gap: 15px; /* Espacio entre los enlaces reducido */
+}
+
+/* Estilo para los enlaces de políticas */
+.politicas-footer a {
+    color: #c2baba; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 0.9rem; /* Tamaño de fuente reducido */
+}
+
+/* Efecto al pasar el cursor sobre los enlaces de políticas */
+.politicas-footer a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}

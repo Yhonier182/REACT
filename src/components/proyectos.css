@@ -1,0 +1,77 @@
+/* proyectos.css */
+
+/* Estilo general para la sección de proyectos */
+.proyectos-container {
+    max-width: 1250px; /* Define el ancho máximo del contenedor para que no ocupe todo el ancho de la pantalla en resoluciones grandes */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 30px; /* Proporciona un espacio interno grande para que el contenido tenga aire */
+    border-radius: 8px; /* Aplica un borde redondeado a las esquinas del contenedor */
+    text-align: center; /* Centra el contenido y el texto del contenedor */
+    background-color: #0a0a0a; /* Establece un fondo oscuro para el contenedor */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Añade una sombra leve alrededor del contenedor */
+}
+
+/* Encabezado de la sección */
+.proyectos-container h2 { 
+    padding: 20px;  /* separa el nombre de los bordes */
+    font-size: 2em; /* Aumenta el tamaño de la fuente del título */
+    margin-bottom: 40px; /* Añade espacio debajo del título */
+    color: #d3cece; /* Color de texto claro para resaltar sobre el fondo oscuro */
+}
+
+/* Contenedor principal de los proyectos */
+.proyectos-grid {
+    display: grid; /* Usa un diseño de cuadrícula para los proyectos */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Coloca las tarjetas en columnas automáticas de 250px mínimo */
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+/* Tarjeta individual de cada proyecto */
+.proyecto-card {
+    background-color: #f9f9f9; /* Fondo claro para contrastar con el fondo oscuro del contenedor */
+    border-radius: 8px; /* Bordes redondeados para las tarjetas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    overflow: hidden; /* Oculta el contenido que sobresalga de la tarjeta */
+    transition: transform 0.3s ease; /* Transición suave para la animación */
+}
+
+.proyecto-card:hover {
+    transform: translateY(-5px); /* Mueve la tarjeta hacia arriba al pasar el ratón para dar efecto */
+}
+
+/* Imagen del proyecto */
+.proyecto-card img {
+    width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+    height: 180px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+}
+
+/* Nombre del proyecto */
+.proyecto-card h3 {
+    font-size: 1.5em; /* Tamaño de fuente más grande para el título de cada proyecto */
+    margin: 10px 0; /* Espacio alrededor del título */
+    color: #0e0d0d; /* Color oscuro para destacar */
+}
+
+/* Tecnologías utilizadas */
+.proyecto-card p {
+    font-size: 1em; /* Tamaño de fuente estándar */
+    color: #888; /* Color gris para resaltar menos que el título */
+}
+
+/* Enlace a GitHub */
+.proyecto-card a {
+    display: inline-block; /* Permite margen y padding */
+    margin: 15px 0; /* Espacio superior e inferior */
+    padding: 8px 16px; /* Espacio interno para hacer el enlace más visible */
+    font-size: 1em; /* Tamaño de fuente estándar */
+    color: #fff; /* Texto blanco para contraste */
+    background-color: #0073e6; /* Fondo azul para destacar */
+    border-radius: 4px; /* Bordes redondeados */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.proyecto-card a:hover {
+    background-color: #005bb5; /* Color de fondo más oscuro al pasar el ratón */
+}

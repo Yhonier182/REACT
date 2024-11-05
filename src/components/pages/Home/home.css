@@ -1,0 +1,65 @@
+
+.home-container {
+    text-align: center;
+    padding: 60px;
+    background-color: #0a0a0a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-container img {
+    width: 250px; /* Ajusta el tamaño de la foto de perfil */
+    height: 250px; /* Asegura que la imagen sea cuadrada */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    border-radius: 50%; /* Para un perfil redondo */
+    margin-bottom: 20px;
+}
+
+.home-container h1 {
+    font-size: 2.5rem;
+    color: #888484;
+    margin: 10px 0;
+}
+
+.home-container h1 span {
+    color: #007bff; /* Color para resaltar el nombre */
+}
+
+.home-container p {
+    font-size: 1.2rem;
+    color: #8a8686;
+    margin-bottom: 20px;
+}
+
+.home-container div {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaciado entre botones */
+}
+
+.home-container button {
+    background-color: #007bff;
+    color: rgb(29, 26, 26);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;  
+}
+
+/* src/components/pages/Home/home.css */
+.boton-curriculum {
+    background: linear-gradient(to right, yellow, orange);
+    color: rgb(14, 11, 11); /* Cambia el color del texto si es necesario */
+    border: none; /* Elimina el borde si lo deseas */
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+    transition: background 0.3s; /* Transición suave al cambiar el fondo */
+}
+
+.boton-curriculum:hover {
+    background: linear-gradient(to right, orange, yellow); /* Cambia el degradado al pasar el mouse */
+}

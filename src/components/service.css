@@ -1,0 +1,77 @@
+/* Contenedor principal para el componente de servicio */
+.contenedor-servicio {
+    width: 100%; /* Abarca el ancho total de la ventana */
+    padding: 30px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto y otros elementos dentro del contenedor */
+    background-color: #0a0a0a; /* Establece un fondo oscuro para el contenedor */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra para dar profundidad */
+    position: relative; /* Permite que otros elementos se superpongan si es necesario */
+}
+
+/* Estilo para el encabezado de nivel 2 */
+.titulo {
+    text-align: center; /* Alinear el texto al centro */
+    font-size: 2rem; /* Aumenta el tamaño de la fuente */
+    color: #c2baba; /* Color del texto (gris oscuro) */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilo para la lista de servicios, usando grid */
+.lista-servicios {
+    display: grid; /* Usar diseño de cuadrícula */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Crear columnas adaptativas */
+    gap: 20px; /* Espacio entre los elementos de la cuadrícula */
+}
+
+/* Estilo para cada elemento de servicio */
+.item-servicio {
+    background-color: #1b1a1a; /* Color de fondo para cada servicio */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+    transition: transform 0.2s, box-shadow 0.2s; /* Transición suave para efectos al pasar el cursor */
+}
+
+/* Efecto al pasar el cursor sobre el elemento de servicio */
+.item-servicio:hover {
+    transform: translateY(-5px); /* Mover el elemento hacia arriba */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Aumentar la sombra para dar un efecto de elevación */
+}
+
+/* Estilo para el ID del servicio */
+.id-servicio {
+    font-size: 1.5rem; /* Tamaño de fuente más grande para el ID */
+    color: #fcf7f7; /* Color gris medio */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo para el título del servicio */
+.titulo-servicio {
+    font-size: 1.25rem; /* Tamaño de fuente para el título */
+    color: #007bff; /* Color azul (para destacar) */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo para la descripción del servicio */
+.descripcion-servicio {
+    font-size: 1rem; /* Tamaño de fuente estándar */
+    color: #f1d1d1; /* Color gris oscuro */
+    margin-bottom: 15px; /* Espacio inferior */
+}
+
+/* Estilo para el enlace de "Leer Más" */
+.enlace-servicio {
+    display: inline-block; /* Hacer que el enlace se comporte como un bloque en línea */
+    padding: 10px 15px; /* Espaciado interno del enlace */
+    background-color: #007bff; /* Color de fondo azul */
+    color: rgb(8, 8, 8); /* Color del texto (puedes cambiar a blanco si prefieres) */
+    text-decoration: none; /* Quitar subrayado */
+    border-radius: 5px; /* Bordes redondeados del enlace */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo al pasar el mouse */
+}
+
+/* Efecto al pasar el cursor sobre el enlace */
+.enlace-servicio:hover {
+    background-color: #0056b3; /* Cambiar a un azul más oscuro al pasar el mouse */
+}

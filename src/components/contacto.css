@@ -1,0 +1,98 @@
+/* Contenedor principal para el componente de contacto */
+.contenedor-contacto {
+    max-width: 1250px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #0a0a0a; /* Fondo oscuro para el contenedor */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+/* Estilo para el encabezado de nivel 2 */
+.titulo-contacto {
+    text-align: center; /* Alinear el texto al centro */
+    font-size: 2rem; /* Tamaño de la fuente */
+    color: #c2baba; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Contenido principal, dividido en dos columnas */
+.contenido {
+    display: grid; /* Usar grid para dividir el espacio */
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+/* Estilo para la sección de información de contacto */
+.info-contacto {
+    background-color: #1b1a1a; /* Fondo para la sección de información */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para los enlaces de contacto */
+.contacto-info {
+    display: flex; /* Usar flexbox para alinear elementos */
+    align-items: center; /* Alinear verticalmente al centro */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.contacto-info a {
+    margin-left: 8px; /* Espacio a la izquierda del enlace */
+    text-decoration: none; /* Quitar subrayado */
+    color: #007bff; /* Color azul para el enlace */
+    transition: color 0.3s; /* Transición suave */
+}
+
+.contacto-info a:hover {
+    color: #0056b3; /* Cambiar a azul más oscuro al pasar el mouse */
+}
+
+/* Estilo para el formulario de contacto */
+.formulario-contacto {
+    background-color: #1b1a1a; /* Fondo para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para formularios */
+form {
+    margin-bottom: 20px; /* Espacio inferior entre formularios */
+}
+
+label {
+    display: block; /* Hacer que la etiqueta ocupe toda la línea */
+    margin-bottom: 5px; /* Espacio inferior */
+    font-weight: bold; /* Negrita para las etiquetas */
+    color: #fcf7f7; /* Color del texto de las etiquetas */
+}
+
+input[type="text"],
+textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio inferior */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #2c2c2c; /* Fondo oscuro para entradas */
+    color: #f1d1d1; /* Color del texto */
+}
+
+textarea {
+    resize: none; /* Quitar la opción de redimensionar */
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Color del texto blanco */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambiar a azul más oscuro al pasar el mouse */
+}
