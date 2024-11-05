@@ -7,10 +7,12 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
+    width: 500px;
+    background: rgb(138, 43, 226);
 }
 
 h2 {
-    color: #333;
+    color: #0a0303;
 }
 
 fieldset {
@@ -23,7 +25,7 @@ input[type="number"] {
     margin: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 100px;
+    width: 2    00px;
 }
 
 button {
@@ -31,12 +33,12 @@ button {
     margin: 5px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
-    color: white;
     cursor: pointer;
     transition: background-color 0.3s;
+    width: 70px;
 }
 
+
 button:hover {
-    background-color: #0056b3;
+    background-color: #76bfe9;
 } 
