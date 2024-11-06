@@ -1,9 +1,9 @@
 import React from 'react';
-import './navbar.css'; 
+
 
  export const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className='bg-black text-white px-8 md:px-16 lg:px-24'>
       <div className="navbar-brand">YHONIER ARIAS</div>
       <div className="navbar-links">
         <a href="/">Inicio</a>
