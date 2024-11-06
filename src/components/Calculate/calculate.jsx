@@ -12,17 +12,9 @@ export const Calculate =() =>{
     const handleMultiply=()=> setResut(number1 * number2)
     const handleDiv= ()=> setResut(number1 / number2)
 
-    const getRandomColor = () => {
-        const letters = '0123456789ABCDEF';
-        let color = '#';
-        for (let i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
-    }
-
     const changeBackgroundColor = () => {
-        setBgColor(getRandomColor());
+        const randomColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
+        setBgColor(randomColor);
     }
 
     return (
@@ -37,7 +29,7 @@ export const Calculate =() =>{
                 <button onClick={handleSubstrack}>-</button>
                 <button onClick={handleMultiply}>*</button>
                 <button onClick={handleDiv}>/</button>
-                <button onClick={changeBackgroundColor}>Cambiar Color</button>
+                <button onClick={changeBackgroundColor}>Cambiar color de fondo</button>
             </fieldset>
             
         </div>

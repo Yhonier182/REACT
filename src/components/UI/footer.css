@@ -57,6 +57,8 @@ footer {
 .suscripcion form {
     display: flex; /* Para alinear el input y el botón */
     margin-top: 5px; /* Espacio superior reducido */
+    color: #000000; /* Color negro para el texto */
+   
 }
 
 /* Estilo para el input de correo electrónico */
@@ -66,6 +68,7 @@ input[type="email"] {
     border-radius: 5px 0 0 5px; /* Bordes redondeados a la izquierda */
     flex: 1; /* Para que el input tome el espacio disponible */
     font-size: 0.9rem; /* Tamaño de fuente reducido */
+   
 }
 
 /* Estilo para el botón de suscripción */

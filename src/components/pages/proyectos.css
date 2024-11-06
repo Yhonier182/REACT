@@ -2,7 +2,7 @@
 
 /* Estilo general para la sección de proyectos */
 .proyectos-container {
-    max-width: 1250px; /* Define el ancho máximo del contenedor para que no ocupe todo el ancho de la pantalla en resoluciones grandes */
+    max-width: 2000px; /* Define el ancho máximo del contenedor para que no ocupe todo el ancho de la pantalla en resoluciones grandes */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     padding: 30px; /* Proporciona un espacio interno grande para que el contenido tenga aire */
     border-radius: 8px; /* Aplica un borde redondeado a las esquinas del contenedor */

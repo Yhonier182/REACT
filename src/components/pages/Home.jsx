@@ -1,9 +1,9 @@
 import React from "react";
-import imgenPerfil from "/perfil.jpeg";
+import imgenPerfil from "./../UI/Logotipo/perfil.jpeg";
 
 import './home.css';
 
-const Home = () =>   {
+export const Home = () =>   {
     return(
     <div  className="home-container">
        <img src={imgenPerfil} alt="" />
@@ -24,4 +24,3 @@ const Home = () =>   {
     ) 
 }
 
-export default Home

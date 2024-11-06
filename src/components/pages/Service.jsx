@@ -1,7 +1,7 @@
 import React from 'react';
 import './service.css';
 
-const servicios = [
+ const servicios = [
   {
     id: 1,
     titulo: "Diseño Web",
@@ -24,7 +24,7 @@ const servicios = [
   }
 ]
 
-const Servicio = () => {
+export const Servicio = () => {
   return (
     <div className="contenedor-servicio">
       <div>
@@ -50,4 +50,3 @@ const Servicio = () => {
   );
 }
 
-export default Servicio;

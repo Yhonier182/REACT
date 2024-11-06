@@ -2,7 +2,7 @@ import React from 'react';
 import { FaEnvelope, FaPhone, FaMapMarkedAlt } from 'react-icons/fa';
 import './contacto.css'; 
 
-const Contacto = () => {
+export const Contacto = () => {
   return (
     <div className="contenedor-contacto">
       <h2 className="titulo-contacto">Contacto</h2>
@@ -12,7 +12,7 @@ const Contacto = () => {
         <div className="info-contacto">
           <h3 className="titulo-h3">Hablemos</h3>
           <p className="descripcion-contacto">
-            Estoy abierto a discutir proyectos de desarrollo web o oportunidades de asociación.
+            Estoy abierto a discutir proyectos de desarrollo web u oportunidades de asociación.
           </p>
           <div className="contacto-info">
             <FaEnvelope />
@@ -49,4 +49,3 @@ const Contacto = () => {
   );
 }
 
-export default Contacto;

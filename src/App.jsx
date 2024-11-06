@@ -1,12 +1,12 @@
 import './App.css'
-// import Navbar from './components/Layouts/Navbar'
-// import About from './components/pages/AboutsUS/About'
-// import Home from './components/pages/Home/Home'
-// import Service from './components/Service'
-// import Proyectos from './components/proyectos'
-// import Contacto from './components/Contacto'
-// import Footer from './components/Footer'
-import { Calculate } from './components/calculate'
+import {Navbar} from './components/Layouts/Navbar'
+import {Home} from './components/pages/Home'
+import {About} from './components/pages/About'
+import {Servicio} from './components/pages/Service'
+import {Proyectos} from './components/pages/Proyectos'
+import {Contacto} from './components/pages/Contacto'
+import {Footer} from './components/UI/Footer'
+// import { Calculate } from './components/Calculate/calculate'
 
 
 //ejemplo correcyt import {componente} from './''' etc
@@ -15,15 +15,16 @@ import { Calculate } from './components/calculate'
 export const  App = () => {
   return (
     <div>
-
-    {/* <Navbar />
+    <Navbar />
     <Home />
     <About />
-    <Service />
+    <Servicio />
     <Proyectos />
     <Contacto />
-    <Footer />  */}
-     <Calculate/>
+    <Footer />
+   
+    
+    {/* <Calculate/> */}
     </div>
   )
 }

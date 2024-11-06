@@ -1,10 +1,10 @@
 /* Contenedor principal para el componente de contacto */
 .contenedor-contacto {
-    max-width: 1250px; /* Ancho máximo del contenedor */
+    max-width: 2000px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centrar el contenedor horizontalmente */
     padding: 20px; /* Espaciado interno */
     border-radius: 8px; /* Bordes redondeados */
-    background-color: #0a0a0a; /* Fondo oscuro para el contenedor */
+    background-color: #080808; /* Fondo oscuro para el contenedor */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
 }
 
@@ -25,9 +25,10 @@
 
 /* Estilo para la sección de información de contacto */
 .info-contacto {
-    background-color: #1b1a1a; /* Fondo para la sección de información */
+    background-color: #1a1818; /* Fondo para la sección de información */
     border-radius: 8px; /* Bordes redondeados */
     padding: 20px; /* Espaciado interno */
+    color: #ffffff; /* Color de letra blanca */
 }
 
 /* Estilo para los enlaces de contacto */
@@ -50,7 +51,7 @@
 
 /* Estilo para el formulario de contacto */
 .formulario-contacto {
-    background-color: #1b1a1a; /* Fondo para el formulario */
+    background-color: #181717; /* Fondo para el formulario */
     border-radius: 8px; /* Bordes redondeados */
     padding: 20px; /* Espaciado interno */
 }
@@ -74,7 +75,7 @@ textarea {
     margin-bottom: 10px; /* Espacio inferior */
     border: 1px solid #ccc; /* Borde gris claro */
     border-radius: 4px; /* Bordes redondeados */
-    background-color: #2c2c2c; /* Fondo oscuro para entradas */
+    background-color: #353232; /* Fondo oscuro para entradas */
     color: #f1d1d1; /* Color del texto */
 }
 
@@ -96,3 +97,5 @@ button {
 button:hover {
     background-color: #0056b3; /* Cambiar a azul más oscuro al pasar el mouse */
 }
+
+

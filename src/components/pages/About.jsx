@@ -1,8 +1,8 @@
 import React from 'react';
-import fotoPerfil from './../../../../public/perfil.jpeg'
+import fotoPerfil from './../UI/Logotipo/perfil.jpeg'
 import './about.css'
 
-const About = () => {
+export const About = () => {
   return (
     <div className='about-container'>
       <h2 className='about-title'>Sobre Mí</h2>
@@ -50,4 +50,3 @@ const About = () => {
   );
 };
 
-export default About;

@@ -1,7 +1,7 @@
 import React from 'react';
-import java from '/java.jpg';
-import inventario from '/sistemainventario.png';
-import angular from '/angular.png';
+import java from './../UI/Logotipo/java.jpg';
+import inventario from './../UI/Logotipo/sistemainventario.png';
+import angular from './../UI/Logotipo/angular.png';
 import './proyectos.css';
 
 const project = [
@@ -28,7 +28,7 @@ const project = [
   }
 ];
 
-const Proyectos = () => {
+ export const Proyectos = () => {
   return (
     <div className="proyectos-container">
       <h2>Mis Proyectos</h2>
@@ -46,4 +46,4 @@ const Proyectos = () => {
   );
 };
 
-export default Proyectos;
+
