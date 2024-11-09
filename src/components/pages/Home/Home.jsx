@@ -1,12 +1,12 @@
 import React from "react";
-import imgenPerfil from "./../UI/Logotipo/perfil.jpeg";
+
 
 import './home.css';
 
 export const Home = () =>   {
     return(
     <div  className="home-container">
-       <img src={imgenPerfil} alt="" />
+       {/* <img src={imgenPerfil} alt="" /> */}
        <h1>
           Soy {""}
           <span>

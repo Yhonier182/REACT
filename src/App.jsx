@@ -1,30 +1,25 @@
 import './App.css'
-import {Navbar} from './components/Layouts/Navbar'
-import {Home} from './components/pages/Home'
-import {About} from './components/pages/About'
-import {Servicio} from './components/pages/Service'
-import {Proyectos} from './components/pages/Proyectos'
-import {Contacto} from './components/pages/Contacto'
-import {Footer} from './components/UI/Footer'
+import { Home } from './components/pages/Home/Home'
+import { About } from './components/pages/AboutUS/About'
+import { Servicio } from './components/pages/ServicesUS/Service'
+import { Proyectos } from './components/pages/ProyectsUS/Proyectos'
+import { Contacto } from './components/pages/ContacUS/Contacto'
+import { Footer } from './components/Layouts/Footer/Footer'
 // import { Calculate } from './components/Calculate/calculate'
+import { Header } from './components/Layouts/Header/Header'
 
 
-//ejemplo correcyt import {componente} from './''' etc
+import { Route, Routes } from 'react-router-dom'
 
 
-export const  App = () => {
+export const App = () => {
   return (
     <div>
-    <Navbar />
-    <Home />
-    <About />
-    <Servicio />
-    <Proyectos />
-    <Contacto />
+      <Header/>
+      <Routes>
+        <Route path='/' element= {<Home/>}/>
+      </Routes>
     <Footer />
-   
-    
-    {/* <Calculate/> */}
     </div>
   )
 }

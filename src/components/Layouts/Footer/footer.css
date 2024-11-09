@@ -76,7 +76,7 @@ button {
     padding: 5px; /* Espaciado interno reducido */
     border: none; /* Sin borde */
     background-color: #007bff; /* Color de fondo azul */
-    color: rgb(8, 8, 8); /* Color del texto oscuro */
+    color: rgb(233, 206, 206); /* Color del texto oscuro */
     border-radius: 0 5px 5px 0; /* Bordes redondeados a la derecha */
     cursor: pointer; /* Cambiar cursor al pasar el ratón */
     transition: background-color 0.3s; /* Transición suave para el color de fondo al pasar el mouse */
